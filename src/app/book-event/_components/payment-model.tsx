@@ -43,8 +43,7 @@ function PaymentModal({
       const result = await stripe.confirmPayment({
         elements,
         confirmParams: {
-          return_url:
-            "https://example.com/order/123/complete",
+          return_url:"https://example.com/order/123/complete",
         },
         redirect: "if_required",
       });
