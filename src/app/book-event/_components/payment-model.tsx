@@ -45,7 +45,7 @@ function PaymentModal({
         confirmParams: {
           return_url:
             `${process.env.NEXT_PUBLIC_DOMAIN!}` ||
-            "https://eventify-red.vercel.app",
+          "https://eventify-red.vercel.app",
         },
         redirect: "if_required",
       });
